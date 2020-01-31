@@ -1,0 +1,94 @@
+Joseph Mampillil
+Lab 9 - SQL
+11-19-2019
+mampij
+
+--------------------------------------------------------------------------------
+Part 1
+
+CREATE DATABASE websyslab9;
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.0090 seconds.)
+
+CREATE TABLE courses (crn INT(11) PRIMARY KEY, prefix VARCHAR(4) NOT NULL, number SMALLINT(4) NOT NULL, title VARCHAR(255) NOT NULL) COLLATE utf8_general_ci;
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.0027 seconds.)
+
+CREATE TABLE students (rin INT(9) PRIMARY KEY, rcsid CHAR(7), `first name` VARCHAR(100) NOT NULL, `last name` VARCHAR(100) NOT NULL, alias VARCHAR(100) NOT NULL, phone INT(10)) COLLATE utf8_general_ci;
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.1221 seconds.)
+--------------------------------------------------------------------------------
+Part 2
+
+ALTER TABLE students ADD street VARCHAR(255) NOT NULL, ADD city VARCHAR(255) NOT NULL, ADD state VARCHAR(255) NOT NULL, ADD zip INT(5) NOT NULL;
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.1341 seconds.)
+
+ALTER TABLE courses ADD section INT(3), ADD year int(4);
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.2184 seconds.)
+
+CREATE TABLE grades (id INT(11) AUTO_INCREMENT PRIMARY KEY, crn INT(11) NOT NULL, rin INT(9) NOT NULL, FOREIGN KEY (crn) REFERENCES courses(crn), FOREIGN KEY (rin) REFERENCES students(rin), grade int(3) NOT NULL);
+  MySQL returned an empty result set (i.e. zero rows). (Query took 0.1640 seconds.)
+
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (65028, 'IHSS', 1300, 'Race and Film in U.S. Culture and History', 1, 2018);
+  1 row inserted. (Query took 0.0217 seconds.)
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (64824, 'ITWS', 1100, 'Introduction to Information Technology and Web Science', 2, 2018);
+  1 row inserted. (Query took 0.0168 seconds.)
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (61048, 'CSCI', 1100, 'Computer Science I', 10, 2018);
+  1 row inserted. (Query took 0.0074 seconds.)
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (74544, 'ITWS', 1220, 'IT and Society', 2, 2019);
+  1 row inserted. (Query took 0.0085 seconds.)
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (83228, 'ITWS', 2110, 'Web Systems Development', 1, 2019);
+  1 row inserted. (Query took 0.0091 seconds.)
+INSERT INTO websyslab9.courses (crn, prefix, number, title, section, year) VALUES (61114, 'MATH', 1020, 'Calculus II', 5, 2018);
+  1 row inserted. (Query took 0.0084 seconds.)
+
+INSERT INTO websyslab9.students (rin, rcsid, `first name`, `last name`, alias, phone, street, city, state, zip) VALUES (661956820, 'mampij', 'Joseph', 'Mampillil', 'Joe', 8452822395, 'Red Rock Road', 'New City', 'NY', 10956);
+  1 row inserted. (Query took 0.0167 seconds.)
+INSERT INTO websyslab9.students (rin, rcsid, `first name`, `last name`, alias, phone, street, city, state, zip) VALUES (661956821, 'harrid', 'Drew', 'Harrison', 'Big Harrison', 4017034840, 'Sesame Street', 'Attleboro', 'MA', 01956);
+  1 row inserted. (Query took 0.0182 seconds.)
+INSERT INTO websyslab9.students (rin, rcsid, `first name`, `last name`, alias, phone, street, city, state, zip) VALUES (661956822, 'haucka', 'Alexander', 'Hauck', 'Alex', 6468059877, 'Lake Street', 'Jim Thorpe', 'PA', 40701);
+  1 row inserted. (Query took 0.0077 seconds.)
+INSERT INTO websyslab9.students (rin, rcsid, `first name`, `last name`, alias, phone, street, city, state, zip) VALUES (661956823, 'mierr2', 'Rebecca', 'Mier', 'Reba', 4444444444, 'Lincoln Avenue', 'Colchester', 'VT', 20304);
+  1 row inserted. (Query took 0.0086 seconds.)
+
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (65028, 661956820, 100);
+  Inserted row id: 1 (Query took 0.0189 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (74544, 661956820, 99);
+  Inserted row id: 2 (Query took 0.0062 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (83228, 661956820, 7);
+  Inserted row id: 3 (Query took 0.0075 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (61114, 661956820, 2);
+  Inserted row id: 4 (Query took 0.0072 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (61048, 661956821, 4);
+  Inserted row id: 5 (Query took 0.0080 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (83228, 661956821, 107);
+  Inserted row id: 6 (Query took 0.0077 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (61114, 661956822, 8001);
+  Inserted row id: 7 (Query took 0.0069 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (74544, 661956822, 10);
+  Inserted row id: 8 (Query took 0.0071 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (61114, 661956823, 25);
+  Inserted row id: 9 (Query took 0.0078 seconds.)
+INSERT INTO websyslab9.grades (crn, rin, grade) VALUES (64824, 661956823, 93);
+  Inserted row id: 10 (Query took 0.0073 seconds.)
+
+SELECT * FROM `students` ORDER BY `students`.`rin` ASC
+  Showing rows 0 - 3 (4 total, Query took 0.0048 seconds.) [rin: 661956820... - 661956823...]
+SELECT * FROM `students` ORDER BY `students`.`last name` ASC
+  Showing rows 0 - 3 (4 total, Query took 0.0031 seconds.) [last name: HARRISON... - MIER...]
+SELECT * FROM `students` ORDER BY `students`.`rcsid` ASC
+  Showing rows 0 - 3 (4 total, Query took 0.0017 seconds.) [rcsid: HARRID... - MIERR2...]
+SELECT * FROM `students` ORDER BY `students`.`first name` ASC
+  Showing rows 0 - 3 (4 total, Query took 0.0024 seconds.) [first name: ALEXANDER... - REBECCA...]
+
+SELECT `grades`.`rin`, `students`.`first name`, `grades`.`grade` FROM `students` INNER JOIN `grades` ON `grades`.`grade` > 90 AND `students`.`rin` = `grades`.`rin`;
+  Showing rows 0 - 4 (5 total, Query took 0.0046 seconds.)
+
+SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`;
+  Showing rows 0 - 5 (6 total, Query took 0.0041 seconds.)
+
+SELECT `crn`, COUNT(`rin`) FROM `grades` GROUP BY `crn`;
+  Showing rows 0 - 5 (6 total, Query took 0.0038 seconds.)
+--------------------------------------------------------------------------------
+https://www.techonthenet.com/sql/tables/create_table.php
+https://dev.mysql.com/doc/refman/8.0/en/charset-table.html
+https://stackoverflow.com/questions/19751068/how-to-use-foreign-keys-with-php
+https://dba.stackexchange.com/questions/129023/selecting-data-from-another-table-using-a-foreign-key
+https://stackoverflow.com/questions/2843470/mysql-count-elements-in-a-database-based-on-how-many-unique-values-there-are-in

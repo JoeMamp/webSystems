@@ -1,0 +1,42 @@
+Lab #8 - PHP, OOP and Input Handling
+November 18, 2019
+Joseph Mampillil
+mampij
+
+1) Explain what each of your classes and methods does, the order in which methods are invoked, and the flow of execution after one of the operation buttons has been clicked.
+  Class Operation
+    This is an abstract class that instantiates the two operands, checks to make
+    sure that they are valid (i.e. numbers), and declares two functions,
+    operate() and getEquation(). operate() will *operate* on the operands, and
+    getEquation() will print out the equation.
+
+  (Sub)class Addition, Subtraction, Multiplication, Division
+    These classes extend Operation, so they have access to its protcted member
+    variables and public classes. They add functionality to operate() and
+    getEquation().
+
+2) Also explain how the application would differ if you were to use $_GET, and why this may or may not be preferable.
+  If we were using $_GET we would be sending our data as part of the URL, where
+  it would be saved in the browser history; This is not the case with $_POST.
+  This may be helpful is we wanted to be able to easily see the values we've
+  given in the url, but really it's not a good idea, since most of the time
+  when sending information to the server, we should prioritize security and use
+  $_POST instead.
+
+3) Finally, please explain whether or not there might be another (better +/-) way to determine which button has been pressed and take the appropriate action
+  Instead of ifs we can use switch cases to determine which button has been
+  pressed. If we use switch(true) then each case can compare $_POST and isset()
+  to true.
+
+  https://www.w3schools.com/php/php_switch.asp
+
+Using the resources at https://www.w3schools.com/php/php_form_validation.asp I
+added <form> parameters in the HTML. This is meant to help protect the site from
+injection attacks by converting special characters such as < and ' to HTML.
+I also changed some CSS usnig Bootsrap. Mainly, I put the calculator in a card
+with a top image. The card has a background image of radial gradient and a set
+height and width for the responsive card image.
+
+https://getbootstrap.com/docs/4.3/components/card/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+https://fonts.google.com/

@@ -1,0 +1,88 @@
+Part 1: Semantic HTML
+I put the title of my page in a header element using h1 and h2 tags (the
+playlist title is in h1 and the curator of the playlist is in h2). I formatted
+my playlist mostly with figure elements because I felt that it best allowed me
+to add information around an image (the cover art). I initially had separate
+figcaptions for the Track Name and for the Artist and Album Name. However, when
+I tried to validate my markup I learned that figure tags only allow one caption
+per figure, so I combined them into one. I organized them within the caption by
+adding the class="trackInfo" tag and by adding a title="Track Name, Artist,
+Album Name" tag so that people hovering over the information will see what the
+information represents. I used the aside elements to represent less relevant
+information such as the release data and genre(s). I place a footer tag at the
+end of the body for symmetry, since I have a header tag at the beginning. I used
+https://www.w3schools.com/html/html5_new_elements.asp to learn more about the
+new HTML5 elements that I had to choose from and I used
+https://www.w3schools.com/html/html_links.asp to refresh my knowledge on links.
+
+--------------------------------------------------------------------------------
+
+Part 2: XML
+For my XML, I format playlist information within a Playlist element. Information
+for each song lies within a track element, with elements for name, artist, album,
+date, and genres. The markup is pretty boring, and isn't formatted by itself. I had
+to use an &amp; sequence to insert the & character in the R&B genre. The tracks
+initially had no attribute tags, but I added it in afterwards in order to help
+me access individual tracks from a XSLT stylesheet I might add in the future.
+
+--------------------------------------------------------------------------------
+
+Part 3: HTML and CSS
+My head tag includes a style tag to import an external font from Google (It's
+sort of similar to the Sesame Street font). Within the body of my HTMl are three
+sections: header, main, and footer. I used header to create a large visual
+introduction to my page with my name and the list of songs on the playlist, and
+I simply used a footer for symmetry to add space to the bottom of the page. The
+'main' tag is what I used to hold the actual playlist content since the playlist
+is the main content that I want to be displayed. Within the main tag are multiple
+sections. The first is used to hold the header for each of my playlist columns.
+My original HTML document for part 1 was separated by figures, figcaptions, and
+asides. This made sense to me, since the focus of each entry was the image, and
+I could just include information around it. However, the specific formatting that
+was required for each area of information (title, artist, genre, etc.) required
+me to separate each piece of information into its own element. I could no longer
+format dates and genres together, and artists and album names together. I decided
+to change from figures to sections (with a figure inside for the image). This
+brought about the unexpected consequence of requiring new header tags. Until I
+validated my code, the trackName, trackArtist, trackAlbum, trackRelease, and
+trackGenre were each stored in paragraph tags. But when I validated my code I
+learned that section tags require a header, so I moved the trackName to a h6 tag
+(which make sense, since the title of the song function similarly to a heading).
+Since I couldn't store a list within a paragraph tag, and I didn't want to create
+a new subsection for genres, I listed the genres outside of a paragraph tag within
+an unordered list. The final section is for the end marker.
+
+Aside from the large introduction headers at the top of the page, I also added a
+couple of little features for the page. The most obvious is the background pattern,
+which I found at https://images.app.goo.gl/UnSmE2goMYR5fTj2A (it's from shutterstock).
+The other is the title tag, which displays a popup description when I hover over
+certain elements on the page. This is helpful for organization and allowed me to
+organize/declare the order of elements in the list without writing
+'<insert element name here>:' before each detail. I found information for this at
+https://stackoverflow.com/questions/1055581/how-do-i-add-a-tool-tip-to-a-span-element.
+
+I used https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+to figure out colors for backgrounds.
+
+To resize the album covers I used https://www.geeksforgeeks.org/resize-image-proportionally-with-css/.
+
+I found help for using dashes for lists at https://coderanch.com/t/121909/languages/unordered-list-hyphen.
+
+I looked at https://www.w3schools.com/cssref/pr_border.asp and https://www.w3schools.com/cssref/pr_border-top.asp
+for help formatting the borders around my list.
+
+This is the website I was directed to from the w3schools validator that explained
+to me that I need to add header tags in every section https://www.w3.org/wiki/HTML/Usage/Headings/Missing.
+
+--------------------------------------------------------------------------------
+
+Part 4: XML and CSS
+
+I used the resources at https://www.geeksforgeeks.org/displaying-xml-using-css/
+as well as the lecture slides and lab instructions to help me figure out how to
+style my XML document with CSS. For elements that required an HTML tag, such as
+artist, album, and image, I created classes within the tag to style them (because
+it seems that html: is not a selector. XML does not seem well suited for styling
+content. It keeps everything streamlined and organized, but it seems to be very
+self-contained, and linking it to CSS and HTML almost defeats the purpose of
+using XML (because at that point, why not just use HTML?).

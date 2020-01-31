@@ -1,0 +1,56 @@
+[
+  {
+    "trackName" : "Angel Dream (No. 4)",
+    "trackArtist" : "Tom Petty and the Heartbreakers",
+    "trackAlbum" : "She's the One",
+    "image" : "petty.jpg",
+    "trackRelease" : "August 6, 1996",
+    "site" : "https://www.allmusic.com/album/songs-and-music-from-shes-the-one-mw0000648466",
+    "genres" : [{"trackGenre" : "rock"}]
+  },
+  {
+    "trackName" : "I Say a Little Prayer",
+    "trackArtist" : "Aretha Franklin",
+    "trackAlbum" : "Aretha Now",
+    "image" : "aretha.jpg",
+    "trackRelease" : "June 14, 1968",
+    "site" : "https://www.allmusic.com/album/aretha-now-mw0000098949",
+    "genres" : [{"trackGenre" : "gospel"}, {"trackGenre" : "soul"}, {"trackGenre" : "pop"}]
+  },
+  {
+    "trackName" : "If I Ain't Got You",
+    "trackArtist" : "Alicia Keys",
+    "trackAlbum" : "The Diary of Alicia Keys",
+    "image" : "alicia.jpg",
+    "trackRelease" : "February 17, 2004",
+    "site" : "https://www.allmusic.com/album/the-diary-of-alicia-keys-mw0000320100",
+    "genres" : [{"trackGenre" : "r&b"}]
+  },
+  {
+    "trackName" : "Roll it on Home",
+    "trackArtist" : "John Mayer",
+    "trackAlbum" : "The Search for Everything",
+    "image" : "jm.jpg",
+    "trackRelease" : "February 24, 2017",
+    "site" : "https://www.allmusic.com/album/the-search-for-everything-mw0003025097",
+    "genres" : [{"trackGenre" : "rock"}]
+  },
+  {
+    "trackName" : "Upside Down",
+    "trackArtist" : "GoldFord",
+    "trackAlbum" : "Shed a Little Light",
+    "image" : "ford.jpg",
+    "trackRelease" : "2013",
+    "site" : "https://www.goldfordmusic.com/",
+    "genres" : [{"trackGenre" : "soft pop"}]
+  },
+  {
+    "trackName" : "Whatta Man",
+    "trackArtist" : "Salt n' Pepa",
+    "trackAlbum" : "Very Necessary",
+    "image" : "SP.jpg",
+    "trackRelease" : "December 2, 1993",
+    "site" : "https://www.allmusic.com/album/very-necessary-mw0000103052",
+    "genres" : [{"trackGenre" : "rap"}]
+  }
+]

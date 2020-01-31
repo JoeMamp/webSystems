@@ -1,0 +1,48 @@
+Lab #10 - Final Boss (Web Science Systems Development)
+Joseph Mampillil
+12/10/2019
+
+--------------------------------------------------------------------------------
+Assumptions:
+
+Part 1:
+I assumed that every level that contained more that one item (e.g. the second
+level contained both lectures and labs) should be organized as an array. Therefore,
+My JSON is filled with array. websys_course is an array of 2 objects, "lectures"
+and "labs". Likewise, each of those is an array of object populated with data from
+their respective content types, and each of those objects contains an array holding
+the title, description, and link.
+
+Part 2:
+I assumed that lectures and labs, while displayed in different lists, would both
+be visible at all times (i.e. there was no need to display one and not the other).
+
+Part 3:
+I made some basic assumptions about what makes a good usernames and password. I
+also assumed that when the user wants to archive the course contents, they are
+archiving every lecture and lab, and not just the one that is currently selected.
+--------------------------------------------------------------------------------
+
+General Comments:
+I never finished Lab 9, but doing this lab definitely made me a lot more comfortable
+with using PHP and MySQL. I probably would have played around with CSS more if
+this week wasn't packed with assignments.
+--------------------------------------------------------------------------------
+
+https://stackoverflow.com/questions/22565077/javascript-get-object-property-name?noredirect=1&lq=1
+https://stackoverflow.com/questions/347798/changing-an-elements-id-with-jquery
+https://www.javascript.com/learn/strings#:~:targetText=Enclosing%20quotation%20marks&targetText=That%20means%20strings%20containing%20single,need%20to%20use%20single%20quotes.&targetText=%22It's%20six%20o'clock.,to%20escape%20the%20quotation%20marks.
+https://www.w3schools.com/jsref/jsref_tostring_number.asp
+https://www.w3schools.com/howto/howto_css_two_columns.asp
+https://stackoverflow.com/questions/12443229/get-clicked-element-html-with-jquery
+https://api.jquery.com/jquery.type/
+https://www.w3schools.com/js/js_json_objects.asp
+https://www.w3schools.com/jsref/event_onclick.asp
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick
+https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
+https://www.w3schools.com/cssref/pr_background-attachment.asp
+https://fonts.google.com/?selection.family=Solway
+https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+https://www.php.net/manual/en/control-structures.foreach.php
+https://stackoverflow.com/questions/16938866/how-to-get-json-property-name-php
+w3schools.com/php/func_array_count.asp

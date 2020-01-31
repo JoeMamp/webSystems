@@ -1,0 +1,11 @@
+body {
+  background-image: radial-gradient( rgba(86,225,229,0.8), rgba(194,147,234,0.8) );
+  font-family: "Indie Flower";
+}
+#coverart {
+  height: 300px;
+  width: 300px;
+}
+ul li {
+  list-style-type: lower-latin;
+}

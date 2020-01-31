@@ -1,0 +1,54 @@
+websyslab7-JosephMampillil-mampij.zip
+Joseph Mampillil
+mampij
+
+Lab 7 - Front-end Optimization
+11/8/2019
+
+The first optimization I made was to the HTML file. By removing all of the <li> elements
+from the body of the HTML I reduced the characters we had and therefore the file size. This
+is unnecessary anyway, since we are adding list items to the HTML through JavaScript.
+
+The second optimization I made was moving the CSS and JavaScript to separate files and creating
+<style> and <script> tags to link them, and moving the jQuery to the head. This speeds up the
+loading time for the page, and separates our concerns (best practice).
+
+The third optimization I made was moving the JavaScript link to the bottom of the body. This
+allows the HTML page to load before adding other functionality, improving the loading time of
+the page.
+
+The fourth optimization I made was to the CSS itself. I fixed the background: url() (which was
+initially a stall error) so that the page could actually load. This greatly improved the
+execution time, considering the page did not manage to execute the JavaScript at all to begin with.
+
+The fifth optimization I made was to the CSS and JS files. I used online minifier tools (links are
+below) to compress the CSS and JS files. This reduced the size of each of the files.
+
+Using the waterfall request view and a JavaScript profiler like the one bundled with Chrome Dev Tools (Network tab, Timeline tab > Record [at the bottom toolbar]) is encouraged!
+If your optimization makes your code unreadable, be sure to include another copy which is more readable.
+As normal, there should be a readme file included which explains your observations/comments/assumptions from this lab.
+
+Creativity:
+I changed the background image to a COOL one, and changed the text to white for readability.
+I also moved the text to the center, hid the bullets, and gave it a pretty cool font (https://fonts.google.com/?selection.family=ZCOOL+KuaiLe).
+Since I centered the text, the list items also fade out to the left, and with the font it looks pretty cool and fits with the space theme.
+
+------------------------------------ Notes ------------------------------------
+
+1. Removed all of the <li> items (the whole point of the javascript is to automate this * Decreased file size
+2. Moved <style> to a new css document, added <link> in HTML head ** Improved execution time
+3. Moved the <xxxx> to a new js document **
+4. Moved the jQuery <xxxx> to the head **
+4. Moved js <script> to bottom of body *** Improved execution time
+5. Changed < sign in first js for-loop
+6. Fixed background: url() in css **** Improved execution time
+7. Removed div.bar from HTML *
+8. Minified CSS (https://cssminifier.com/) ***** Decreased file size
+9. Minified JS (https://javascript-minifier.com/) *****
+
+Fixing list item event bubbling:
+1. Changed .click to focus on "ul"
+2. Changed .hide to affect event.target (https://www.w3schools.com/jsref/event_target.asp)
+
+Fixing Show All link
+1. Removed href link from showall in HTML, kept # (apparently this wasn't in everyone's file?)

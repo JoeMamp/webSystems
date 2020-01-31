@@ -1,0 +1,19 @@
+
+body {
+  /* Credit to Salas Photography. Used under the fair use doctrine for educational purposes. */
+  /* Honestly this image is wack and I want a cool one */
+  background-image: url(https://media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-07/RTS1ZZL2.jpg?itok=2myFX4ui);
+  color: white;
+  font-family: "ZCOOL KuaiLe";
+  text-align: center;
+  width: 100%;
+}
+body a {
+  color: white;
+}
+li {
+  list-style: none;
+}
+#showall {
+  font-size: 150%;
+}

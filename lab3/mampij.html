@@ -1,0 +1,154 @@
+<!-- Your résumé, named RCSID.html (styled with RCSID.css), should include...
+● Full Name
+● Address
+● Phone
+● Email (link)
+● Photo of yourself
+
+● Objective Statement/Intro
+
+● Education (minimum 2 items, include secondary school)
+  o Institution (link to website if available)
+  o Degree Program
+  o Dates
+  o Details/Accomplishments
+
+● Work Experience (minimum 3 items)
+  o Organization (link to website if available)
+  o Title
+  o Dates
+  o Details/Accomplishments
+
+● Skills (minimum 8 items)
+
+If you do not have the given number of entries for a given item, you may (must) invent items
+to fill the difference for the purposes of this assignment. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="clearfix">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="mampij.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7CPoppins&display=swap" rel="stylesheet">  <!-- Import some fonts! -->
+  </head>
+  <body class="clearfix">   <!--  From lecture! -->
+
+    <header id="hcard-Joseph-S.-Mampillil" class="vcard">   <!-- hCard formatting -->
+      <img src="profile.jpg" alt="" id="profilePic">
+      <section class="mainTitle">
+        <h1 class="name" title="Name">Joseph Mampillil</h1>
+        <h2 class="org" title="Organization">Rensselaer Polytechnic Institute</h2>
+        <hr>
+      </section>
+      <section class="adr">
+        <h4>Contact Info:</h4>
+        <div class="adr1">
+          <span class="street-address" title="Home Address">15 Red Rock Road</span>,
+          <span class="locality">New City</span>,
+          <span class="region">New York</span>,
+          <span class="postal-code">10956</span>
+          <span class="country-name">United States</span>
+        </div>
+        <div class="adr2">
+          <p class="tel" title="Cell Phone Number">Phone: (845) 282-2395</p>
+          <a class="email" href="mailto:josephmampillil@gmail.com" title="Email">josephmampillil@gmail.com</a> <br>
+          <a class="email" href="mailto:mampij@rpi.edu" title="School Email">mampij@rpi.edu</a> <br>
+          <a href="https://www.linkedin.com/in/jmampillil/" title="Linkedin">https://www.linkedin.com/in/jmampillil/</a>
+          <p class="hCardCred" style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+        </div>
+      </section>
+    </header>
+
+    <!-- main has objective statement, education, and work, but not skills. This is because I want
+         the skills list to appear to the upper right side of the main sections of my resume -->
+    <main>
+
+      <section id="intro">
+        <h2 class="sectionTitle" title="Intro">Objective Statement</h2>
+        <p>Sophomore majoring in Information Technology & Web Science and Applied
+          Math at the RPI School of Science. I have experience in Python and C++.
+          I am currently looking for internships during the Summer and Fall of 2020,
+          through which I hope to gain experience in software development and business
+          management from industry professionals.</p>
+      </section>
+
+      <hr>
+
+      <section id="education" class="clearfix">
+        <h2 class="sectionTitle" title="Education">Education</h2>
+
+        <p id="e1" title="Current School" class="nL"><a href="rpi.edu">Rensselaer Polytechnic Institute</a> - Troy, NY</p>
+        <p id="rpiDate" class="date">August 2018 - May 2022</p>
+
+        <p class="entry">B.S. in Information Technology & Web Science and Mathematics</p>
+        <p class="item">GPA: 3.66</p>
+
+        <p class="entry">Relevant Coursework</p>
+        <p class="item">Web Systems Development</p>
+        <p class="date">Fall 2019</p>
+        <p class="item">Data Structures</p>
+        <p class="date">Spring 2019</p>
+        <p class="item">Intro to Information Technology and Web Science</p>
+        <p class="date">Fall 2018</p>
+        <p class="item">Computer Science I</p>
+        <p class="date">Fall 2018</p>
+
+        <p class="entry">Extracurricular Activities</p>
+        <p class="item">Rensselaer Union Executive Board</p>
+        <p class="item">RPI Computer Science Club</p>
+
+        <p id="e2" title="Previous School" class="nL"><a href="https://www.ccsd.edu/north">Clarkstown Senior High School North</a> - New City, NY</p>
+        <p class="date">September 2014 - June 2018</p>
+
+        <p class="entry">Regents Diploma with Advanced Designation with Honors</p>
+        <p class="item">GPA: 4.0</p>
+
+        <p class="entry">Extracurricular Activities</p>
+        <p class="item">Woodglen Elementary School Math Tutor</p>
+        <p class="item">National Honor Society Secretary</p>
+        <p class="item">World of Difference Peer Leader</p>
+        <p class="item">Science Olympiad Medalist</p>
+
+      </section>
+
+      <hr>
+
+      <section id="work">
+        <h2 class="sectionTitle" title="Work Experience">Work Experience</h2>
+
+        <p id="w1" title="Current Job" class="nL"><a href="https://rpi.edu">Big Data and Startup Performance Researcher</a> - Rensselaer Polytechnic Institute</p>
+        <p class="date">Currently Employed</p>
+        <p class="item">Created a data lake to analyze Twitter data on startup company performance using Python and MongoDB</p>
+        <p class="item">Analyzed data to determine the effects of social media presence on an accelarator's ability to help startup companies</p>
+        <p class="item">Gain knowledge in the analysis of data using automated programs and object-oriented databases</p>
+
+        <p id="w2" title="Current Job" class="nL"><a href="https://rpiathletics.com/sports/2010/5/20/GEN_0520104208.aspx?id=2762">Houston Field House Staff</a> - Rensselaer Polytechnic Institute</p>
+        <p class="date">Currently Employed</p>
+        <p class="item">Direct vehicles and manage parking during home football and hockey games</p>
+
+        <p id="w3" title="Past Job" class="nL"><a href="https://health.westchestergov.com/">Environmental Health Technician </a> - Westchester County Department of Health</p>
+        <p class="date">May 2019 - August 2019</p>
+        <p class="item">Collected and identified various mosquito species across Westchester County to test for harmful diseases</p>
+        <p class="item">Coordinated tasks with Public Health Sanitarians and other E.H. Technicians to effectively manage time and meet deadlines</p>
+
+      </section>
+
+    </main>
+
+    <section id="skills" class="clearfix">
+      <h2 class="sectionTitle" title="Skills">Skills</h2>
+        <p>Python</p>
+        <p>C++ and Java programming</p>
+        <p>HTML, XML, and CSS, JavaScript (including jQuery)</p>
+        <p>gdb and Valgrind debugging</p>
+        <p>Azure server experience</p>
+        <p>PHP and MySQL</p>
+        <p>Fluent in English and Malayalam</p>
+        <p>Proficient in Spanish</p>
+        <p>Microsoft Office</p>
+        <p>Staying hydrated</p>
+        <p>Maintaining homeostasis</p>
+    </section>
+
+  </body>
+</html>

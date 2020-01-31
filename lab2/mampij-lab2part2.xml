@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="style.xsl"?> -->
+<Playlist>
+
+  <track>
+    <name>Angel Dream (No. 4)</name>
+    <artist>Tom Petty and the Hearthbreakers</artist>
+    <album>She's the One</album>
+    <date>August 6, 1996</date>
+    <genres>Rock</genres>
+  </track>
+
+  <track>
+    <name>I Say a Little Prayer</name>
+    <artist>Aretha Franklin</artist>
+    <album>Aretha Now</album>
+    <date>June 14, 1968</date>
+    <genres>Gospel, Soul, Pop</genres>
+  </track>
+
+  <track>
+    <name>If I Ain't Got You</name>
+    <artist>Alicia Keys</artist>
+    <album>The Diary of Alicia Keys</album>
+    <date>February 17, 2004</date>
+    <genres>R&amp;B</genres>
+  </track>
+
+  <track>
+    <name>Roll it on Home</name>
+    <artist>John Mayer</artist>
+    <album>The Search for Everything</album>
+    <date>February 24, 2017</date>
+    <genres>Rock</genres>
+  </track>
+
+  <track>
+    <name>Upside Down</name>
+    <artist>GoldFord</artist>
+    <album>Shed a Little Light</album>
+    <date>2013</date>
+    <genres>Pop</genres>
+  </track>
+
+  <track>
+    <name>Whatta Man</name>
+    <artist>Salt n' Pepa</artist>
+    <album>Very Necessary</album>
+    <date>December 2, 1993</date>
+    <genres>Rap</genres>
+  </track>
+
+</Playlist>

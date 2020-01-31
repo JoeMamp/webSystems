@@ -1,0 +1,165 @@
+/* Set a dark brown background for the entire page, set clearfill to auto so that
+when I float around objects they maintain their background/position within the
+parent container. */
+
+html {
+  background-color: #77514A;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* ----------------------------------------------------- */
+
+/* Made the picture round, sent it to the left side, added a right margin to
+separate it from the rest of the header, and gave it a static size. */
+ #profilePic {
+   border-radius: 50%;
+   display: block;
+   float: left;
+   margin: auto 2em auto auto;
+   height: 200px;
+   width: 200px;
+ }
+ /* Set the header background color to tan, text color to white, and font to
+ Montserrat. Added padding on all sides, large padding on bottom to make header
+ look nice and uniform */
+ .vcard {
+   background-color: #C4A28C;
+   color: #fff;
+   display: block;
+   font-family: "Montserrat";
+   padding: 2em 2em 17em 2em;
+ }
+ /* Display main header (name and organization) next to picture, float them up
+ against it, make the font Poppins, and let it take up only 40% of vCard size. */
+ .mainTitle {
+   display: inline-block;
+   float: left;
+   font-family: "Poppins";
+   width: 40%;
+ }
+ .name {
+   font-size: 24pt; /* change size of name */
+ }
+ .org {
+   font-size: 18pt; /* make font size of organization a little smaller than name */
+ }
+ /* Push addresses contact information to the right */
+ .adr {
+   float: right;
+   font-size: 11pt;
+   text-align: right;
+ }
+ /* Make physical home address displayed on one line */
+ .adr1 {
+   display: inline;
+ }
+ /* Make email, phone, and linkedin addresses display on separate lines */
+ .adr2 {
+   display: block;
+   line-height: 200%;
+ }
+ /* Hide hCard credentials/source for aesthetic, still present in HTML */
+ .hCardCred {
+   visibility: hidden;
+ }
+ .hCardCred a {
+   visibility: hidden;
+ }
+
+/* ----------------------------------------------------- */
+
+/* Add space on sides of body, make blue ridge to get two-colored border. Display
+as one large block, and make the font Poppins. Make the font size 10pt (since
+Poppins is a rather large font), center the body on the page, and let it take up
+only 80% of the page. */
+body {
+  background-color: #fff;
+  border-left: 6.5em;
+  border-right: 6.5em;
+  border-style: ridge;
+  border-color: #5C84B2;
+  display: block;
+  font-family: "Poppins";
+  font-size: 10pt;
+  margin: auto;
+  width: 80%;
+}
+/* Links must always be white */
+body a {
+  color: #fff;
+  font-style: normal;
+}
+/* White background for resume body, send the main stuff (education, work) to the
+left side so that Skills can be on the right. Add padding so it's not up against
+the side of the page, and let it only take up 60% of the body (need skills space)*/
+main {
+  background-color: #fff;
+  float: left;
+  padding: 0em 2em 5em 2em;
+  width: 60%;
+}
+/* Since education items are only one line long, make the space between lines shorter */
+#education {
+  line-height: 50%;
+}
+
+.sectionTitle {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.entry {
+  display: block;
+  float: left;
+  line-height: 50%;
+  width: 60%;
+}
+/* Change color of new list of items to blue, float to left, and italicize it */
+.nL {
+  color: #3F7FBF;
+  display: block;
+  float: left;
+  font-style: italic;
+}
+/* Make links (the school name, job title) blue as well, and make them bold */
+.nL a {
+  color: #3F7FBF;
+  font-weight: bold;
+}
+
+/* Float them to the left side, make them smaller even than the new list entries,
+add amargin on the left, and make them so wide that other items or dates can't
+show up on their line */
+.item {
+  display: block;
+  float: left;
+  font-size: 9pt;
+  font-style: italic;
+  margin-left: 2em;
+  width: 85%;
+}
+/* Make bold, float them to the right side, and align text to the right also */
+.date {
+  display: block;
+  float: right;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* ----------------------------------------------------- */
+
+/* Give the skills section a blue background, send it to the right side of the
+body, give it 1em margins, center all of its text, and give it a width of only
+30% so that it doesn't mess with the main part of the body or sit below it. */
+#skills {
+  background: rgba(90, 139, 184, 0.7);
+  display: block;
+  float: right;
+  margin: 1em;
+  text-align: center;
+  width: 30%;
+}

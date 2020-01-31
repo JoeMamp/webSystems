@@ -1,0 +1,43 @@
+Playlist {
+  background: url(bimg.jpg);
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+track {
+  display: block;
+}
+name {
+  background-color: rgba(123, 108, 122, 0.9);
+  display: block;
+  font-size: 80%;
+  margin-top: 5em;
+}
+.artist {
+  background-color: rgba(123, 108, 122, 1);
+  color: lightblue;
+  display: block;
+}
+.album {
+  background-color: rgba(123, 108, 122, 0.9);
+  display: block;
+  font-style: italic;
+}
+album {
+  background-color: rgba(123, 108, 122, 0.9);
+  display: block;
+  font-style: italic;
+}
+date {
+  background-color: rgba(123, 108, 122, 1);
+  display: block;
+}
+genres {
+  background-color: rgba(123, 108, 122, 0.9);
+  display: block;
+}
+.image {
+  height: 300px;
+  width: 300px;
+}

@@ -1,0 +1,53 @@
+===Database websyslab10
+
+== Table structure for table archive
+
+|------
+|Column|Type|Null|Default
+|------
+|//**archiveID**//|int(9)|No|
+|title|varchar(255)|Yes|NULL
+|description|varchar(1024)|Yes|NULL
+|link|varchar(1024)|Yes|NULL
+|id|int(9)|Yes|NULL
+|content|varchar(255)|Yes|NULL
+== Dumping data for table archive
+
+|66|Introductions and Syllabus Review|This is the introductory lecture for the course. It features introductions to the professor, TAs, and students, as well as information about the syllabus and the course content.|https://docs.google.com/presentation/d/1DOfjs-5DgGAm0p0ivYwBXG3n6157R6RYKuztI7bQ8Zc/edit|NULL|lectures
+|67|Web Architectures|This lecture is all about servers!|https://docs.google.com/presentation/d/16k-plp4jXuFVQD-7l-LUC0tushMXlrRke_-tOU39_Qo/edit?usp=sharing|NULL|lectures
+|68|Apache|This lecture is about Apache, and deals specifically with the XAMPP stack package that we will be using in this course.|https://docs.google.com/presentation/d/1aA_tjncXtdX-vcDFCw-ObLYtN61lcw3doQ1pY_oHCzw/edit#slide=id.p|NULL|lectures
+|69|HTML|This lecture will discuss markup languages, specifically SGML, XML, HTML, and XHTML.|https://drive.google.com/file/d/1sW2i6jyVtEnlYStQMk-1YYhNEEbWwyC0/view?usp=sharing|NULL|lectures
+|70|CSS|This lecture will discuss Cascading Stylesheets (CSS), which will be our main method of altering the visual display of our webpages.|https://drive.google.com/file/d/1KLr0gW4JQoUhDTgRLoNUWDNcJT_A0O9B/view?usp=sharing|NULL|lectures
+|71|Advanced CSS|This lecture is a more in-depth look at CSS, specifically about its limitations and best practices.|https://drive.google.com/open?id=1F-wsKbffZNoZS11-ROpTMSbefAawj_7F|NULL|lectures
+|72|Javascript|This lecture goes in-depth on JavaScript, the high-level, client-side scripting language.|https://docs.google.com/presentation/d/1Pe3YEl-o6PGWcrJUPNEMUGSZPsmKcscqL8XLLQuArIg/edit?usp=sharing|NULL|lectures
+|73|AJAX &amp; JSON|This lecture focuses on JavaScript Object Notation (JSON) and Asynchronous Javascript and XML (AJAX).|https://docs.google.com/presentation/d/13Miamdyy8bQL5GO3Ty0HUNNnv-wgtHkT5p7E1sFtvAQ/edit?usp=sharing|NULL|lectures
+|74|Quiz 1 Review|This slide deck will review the topics to be covered on Quiz 1.|https://docs.google.com/presentation/d/1SsEKGld9K0gohagTAAfYWKmtOrd-YarxYRyK87wwETc/edit?usp=sharing|NULL|lectures
+|75|Front-end Optimization|This lecture will discuss why performance is important, as well as how to measure and improve performance.|https://drive.google.com/file/d/1Wrtmi9mM5d-a1wpFIfSCW92NMoLGltBn/view?usp=sharing|NULL|lectures
+|76|Workflow|This lecture will discuss the importance of smooth front-end workflow and user interface, user experience and performance.|https://drive.google.com/file/d/1P1B3n6JglKj_NPARfxENy5dn40_Kvxde/view?usp=sharing|NULL|lectures
+|77|PHP|This lecture will feature and introduction to PHP and will discuss the topics of PHP MySQL, authentication/authorization, session handling, web security, web services, back-end workflow.|https://drive.google.com/file/d/1arMz8JM38fLljPA0wSr2L0aB4KWW6-9u/view?usp=sharing|NULL|lectures
+|78|More PHP &amp; Advanced PHP|This lecture goes more in-depth on PHP, discussing its functions, interfaces, and abstract classes.|https://drive.google.com/file/d/1e0t4hMsMq861Mwdlo-q6vNsJa6QzF8v2/view?usp=sharing|NULL|lectures
+|79|Start MySQL, Advanced MySQL, More PHP &amp; More MySQL|This lecture discusses the MySQL Relational Database Management System and about how to create databases and tables, columns and fields, data types, and SQL syntax.|https://drive.google.com/file/d/1uaD5a3gfcb7AzSE85vhfVjP69HQ-bep0/view?usp=sharing|NULL|lectures
+|80|PDO|This lecture details selecting databases, user access, PHP Data Objects (PDOs), preparing statements, SQL injection attacks, and starting and ending sessions.|https://drive.google.com/file/d/1i2YW2ulvfvTvxf_ShtD1ucxxCF6Nt8Bv/view?usp=sharing|NULL|lectures
+|81|Authentication|This lecture deals with establishing permissions and verifying authenticity of requests, as well as solutions for better site and database security.|https://drive.google.com/file/d/1HtMSuJFzpk9Ay8aZPi74j-33oT77EiBG/view?usp=sharing|NULL|lectures
+|82|Quiz 2 Review|This slide deck will review the topics to be covered on Quiz 1.|https://docs.google.com/presentation/d/19PsEQnGBuqHU9zAKzJaTi5-e07kKtPDbqVKAQ0ZVNr8/edit#slide=id.p|NULL|lectures
+|83|Lab 1 - Environment Setup|Describe Here|https://docs.google.com/document/d/1Gn_1fgbNyYaI79l88NokcrO4_jeHpZyudCLBjhIcf6U/edit?usp=sharing|NULL|labs
+|84|Lab 2 - XML and Advanced HTML|Describe Here|https://docs.google.com/document/d/1IxpiAGUiog64ZY8fqt5NIaaRuoUAr2gz_h19Cb15lzc/edit?usp=sharing|NULL|labs
+|85|Lab 3 - Resume Assignment|Describe Here|https://drive.google.com/file/d/1pUhm9QBLZeOovsDiUEQrAB5XmIHWoNWI/view?usp=sharing|NULL|labs
+|86|Lab 4 - JavaScript and the Document Object Model|Describe Here|https://docs.google.com/document/d/1rXVffSGK8dcOSEyzf6EJ1YfDvfNCBWrQI4OHDdWV60w/edit?usp=sharing|NULL|labs
+|87|Lab 5 - JSON and AJAX|Describe Here|https://lms.rpi.edu/bbcswebdav/pid-50416-dt-content-rid-248813_1/courses/1909_CSCI_2960_00/Lab%205%20Instructions.html|NULL|labs
+|88|Lab 6 - Hexed Assignment|Describe Here|https://drive.google.com/file/d/1pp5eS6wswuSytn2HtwyXcWu-_sfa4hIE/view|NULL|labs
+|89|Lab 7 - Front-end Optimization|Describe Here|https://lms.rpi.edu/bbcswebdav/pid-53793-dt-content-rid-343076_1/courses/1909_CSCI_2960_00/Lab 7instructions.html|NULL|labs
+|90|Lab 8 - PHP, OOP and Input Handling|Describe Here|https://lms.rpi.edu/bbcswebdav/pid-55436-dt-content-rid-393953_1/courses/1909_CSCI_2960_00/Lab8.html|NULL|labs
+|91|Lab 9 - SQL|Describe Here|https://docs.google.com/document/d/1_F59N6uF6JZZuvwtiK6w00pmdKW9ZOg8cvKuW-6MyG8/edit|NULL|labs
+|92|Lab 10 - Final Boss (Web Science Systems Development)|Describe Here|https://docs.google.com/document/d/1khWW_NYzLO9CjJUx9JViUNZBe9MDgtLNpyNiqYtgkiQ/edit|NULL|labs
+== Table structure for table users
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(9)|No|
+|username|varchar(255)|No|
+|password|varchar(255)|No|
+== Dumping data for table users
+
+|1|default|fff72f0ffaf3531d23b3bf84566cd0ee91aee8f3e1122dc585dc624e052d243a

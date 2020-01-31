@@ -1,0 +1,145 @@
+/*Background image for the page*/
+html {
+  background-image: url(bimg.jpg);
+}
+
+/*I want all the text in the body to be white, formatted in the Oswald font
+  I want everything to only take up 75% of the screen horizontally.*/
+body {
+  color: #fff;
+  font-family: "Oswald";
+  font-size: 110%;
+}
+
+/*Center the main header
+  Only allow it to take up 80% of the page's horizontal space
+  Pad the bottom to keep it separate from the playlist*/
+.mainHeader {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5em;
+}
+/*This is for the big red title and author banner in the page header*/
+.mainTitle {
+  background:rgba(227,42,32,0.8);
+  text-align: center;
+}
+h1 {
+  font-size: 60pt;
+  margin: auto;
+  margin-top: 2em;
+}
+h2 {
+  font-size: 24pt;
+  margin: auto;
+  padding-bottom: 0.25em;
+}
+/* This is for the small orange song banner in the page header */
+.subTitle {
+  background:rgba(227,94,32,0.8);
+  margin: auto;
+  text-align: center;
+}
+h3 {
+  font-size: 18pt;
+  padding: 0.25em;
+}
+h4 {
+  font-size: 16pt;
+  padding-bottom: 0.6em;
+}
+
+/*This class contains everything in the playlist, including the header for
+  each column of the list (song info, album cover). This is where I define the
+  main border that will appear on the left and right, as well as where I set
+  the list to take up 60% of the center of the page*/
+main {
+  border-style: dotted;
+  border-width: 0.5em;
+  border-top: 0;
+  border-bottom: 0;
+  margin: auto;
+  width: 60%;
+}
+/*ID for the header of the table in case I need to format it as a whole*/
+#tableHeader {
+  font-size: 150%;
+}
+/*Also IDs for the column titles, because there probably won't be more of these*/
+#trackInfo {
+  float: left;
+}
+#albumCover {
+  float: right;
+}
+
+/*Every song item will have the same color background, the same solid border on
+  top, and padding of 2em around it.*/
+.tracks {
+  background: rgba(81, 102, 122, 0.7);
+  /* background: rgba(123, 108, 122, 0.8); is another good color */
+  border-style: solid;
+  border-width: 5pt;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: auto;
+  padding: 2em;
+}
+/*The album cover art will need to be resized smaller (originally all the images
+  were 500x500px), and will float to the right of the song information.*/
+.image {
+  display: inline;
+  float: right;
+  width: 30%;
+  height: 30%;
+}
+.trackName {
+  font-variant: small-caps;
+  font-size: 12pt;
+  display: inline;
+}
+.trackArtist {
+  font-weight: bold;
+  font-size: 120%;
+}
+.trackAlbum {
+  font-style: italic;
+}
+.trackRelease {
+  font-size: 75%;
+}
+.trackGenre {
+  font-size: 75%;
+}
+ul li{
+  margin-left: -1.5em;
+  list-style-type: none;
+}
+li::before {
+  content: '  -  ';
+}
+
+#s2 { /*I use an ID here because only one song should be my favorite*/
+  color: rgb(42, 242, 42);
+}
+/* I want links to remain white after they have been clicked */
+a:visited {
+  color: #fff;
+}
+
+#endMarker { /*I'll only need the list to end once*/
+  font-style: italic;
+  text-align: center;
+  border-style: solid;
+  border-width: 5pt;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* Added this to leave some empty space at the bottom of the page */
+footer {
+  font-size: 60pt;
+  margin: auto;
+  margin-bottom: 2em;
+}

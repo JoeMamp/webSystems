@@ -1,0 +1,63 @@
+<div id="game">
+    <header class="mainHeader mainTitle">
+        <h1>Hexed!</h1>
+        <h2>by Sustenance Center</h2>
+        <h2 id="members">Emilie Hoy, Ryan Waddell, Colton Zecca, Yaseen Mahmoud, Joe Mampillil</h2>
+        <div class="subTitle">
+            <h3>Directions:</h3>
+            <p>
+                The goal of hexed is to guess the RGB values for a shape of a given color.
+                Move the sliders to adjust the color displayed in the shape, and click the
+                "Got it!" button when you think you've got it. You can select the game's
+                difficulty and the number of turns you have to customize the Hexed!
+                experience to your liking.
+            </p>
+        </div>
+    </header>
+    <main>
+        <div id="sliders">
+            <div id="settings">
+                <form>
+                    <label>Difficulty: <input name="difficulty" type="number" min="0" max="10" value="5"> </label><br>
+                    <label>Number of Turns: <input name="turns" type="number" min="0" value="10"> </label><br>
+                </form>
+            </div>
+            <div class="container colorSwatchContainer">
+                <div id="staticImage" class="swatch"></div>
+                <div id="changingImage" class="swatch"></div>
+            </div>
+            <a href="high-scores.html">View high scores</a>
+            <form>
+                <div class="pickerContainer">
+                    R:
+                    <input value="0" type="range" min="0" max="255" name="red">
+                    <input class="colorsinput" value="0" type="number" min="0" max="255" name="red">
+                    <label>Percent off: <span class="percent_off_0"></span>% </label>
+                </div>
+                <div class="pickerContainer">
+                    G:
+                    <input value="0" type="range" min="0" max="255" name="green">
+                    <input class="colorsinput" value="0" type="number" min="0" max="255" name="green">
+                    <label>Percent off: <span class="percent_off_1"></span>% </label>
+                </div>
+                <div class="pickerContainer">
+                    B:
+                    <input value="0" type="range" min="0" max="255" name="blue">
+                    <input class="colorsinput" value="0" type="number" min="0" max="255" name="blue">
+                    <label>Percent off: <span class="percent_off_2"></span>% </label>
+                </div>
+
+                <button id="refresh" type="button">Get a New Color</button>
+                <input type="submit" value="Got it!">
+                <p>Time left: <span id="time_left">--</span> Seconds</p>
+                <p>Turns left: <span id="turns_left">--</span></p>
+                <p>Current Score: <span id="currentScore"></span></p>
+                <p>Previous Score: <span id="previousScore"></span></p>
+            </form>
+        </div>
+
+        <div id="checkButton"></div>
+
+
+    </main>
+</div>

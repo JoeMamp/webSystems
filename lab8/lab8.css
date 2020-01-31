@@ -1,0 +1,17 @@
+#result {
+  color: white;
+}
+
+body {
+  font-family: 'Kulim Park', sans-serif;
+}
+
+.card {
+  background-image: radial-gradient(#92BF3F, #BF3F6A);
+}
+
+.card-img-top {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,97 @@
+{
+  "websys_course" :
+  [
+    {
+      "lectures" : [
+        {"Lecture 1" :
+          [{"title" : "Introductions and Syllabus Review", "description" : "This is the introductory lecture for the course. It features introductions to the professor, TAs, and students, as well as information about the syllabus and the course content.", "slides" : "https://docs.google.com/presentation/d/1DOfjs-5DgGAm0p0ivYwBXG3n6157R6RYKuztI7bQ8Zc/edit"}]
+        },
+        {"Lecture 2" :
+          [{"title" : "Web Architectures", "description" : "This lecture is all about servers!", "slides" : "https://docs.google.com/presentation/d/16k-plp4jXuFVQD-7l-LUC0tushMXlrRke_-tOU39_Qo/edit?usp=sharing"}]
+        },
+        {"Lecture 3" :
+          [{"title" : "Apache", "description" : "This lecture is about Apache, and deals specifically with the XAMPP stack package that we will be using in this course.", "slides" : "https://docs.google.com/presentation/d/1aA_tjncXtdX-vcDFCw-ObLYtN61lcw3doQ1pY_oHCzw/edit#slide=id.p"}]
+        },
+        {"Lecture 4" :
+          [{"title" : "HTML", "description" : "This lecture will discuss markup languages, specifically SGML, XML, HTML, and XHTML.", "slides" : "https://drive.google.com/file/d/1sW2i6jyVtEnlYStQMk-1YYhNEEbWwyC0/view?usp=sharing"}]
+        },
+        {"Lecture 5" :
+          [{"title" : "CSS", "description" : "This lecture will discuss Cascading Stylesheets (CSS), which will be our main method of altering the visual display of our webpages.", "slides" : "https://drive.google.com/file/d/1KLr0gW4JQoUhDTgRLoNUWDNcJT_A0O9B/view?usp=sharing"}]
+        },
+        {"Lecture 6" :
+          [{"title" : "Advanced CSS", "description" : "This lecture is a more in-depth look at CSS, specifically about its limitations and best practices.", "slides" : "https://drive.google.com/open?id=1F-wsKbffZNoZS11-ROpTMSbefAawj_7F"}]
+        },
+        {"Lecture 7" :
+          [{"title" : "Javascript", "description" : "This lecture goes in-depth on JavaScript, the high-level, client-side scripting language.", "slides" : "https://docs.google.com/presentation/d/1Pe3YEl-o6PGWcrJUPNEMUGSZPsmKcscqL8XLLQuArIg/edit?usp=sharing"}]
+        },
+        {"Lecture 8" :
+          [{"title" : "AJAX & JSON", "description" : "This lecture focuses on JavaScript Object Notation (JSON) and Asynchronous Javascript and XML (AJAX).", "slides" : "https://docs.google.com/presentation/d/13Miamdyy8bQL5GO3Ty0HUNNnv-wgtHkT5p7E1sFtvAQ/edit?usp=sharing"}]
+        },
+        {"Lecture 9" :
+          [{"title" : "Git(Hub) Refresher", "description" : "This lecture will be all about Git. It will feature a discussions on 'vanilla' vs. GitHub, commands, and best practices, as well as the benefits and downsides of using git.", "slides" : "https://docs.google.com/presentation/d/1UVF4C_AS0nYzjNKiPrm2m__mTm0Hy0IwzVvNEudY6JY/edit?usp=sharing"}]
+        },
+        {"Lecture 10" :
+          [{"title" : "Quiz 1 Review", "description" : "This slide deck will review the topics to be covered on Quiz 1.", "slides" : "https://docs.google.com/presentation/d/1SsEKGld9K0gohagTAAfYWKmtOrd-YarxYRyK87wwETc/edit?usp=sharing"}]
+        },
+        {"Lecture 11" :
+          [{"title" : "Front-end Optimization", "description" : "This lecture will discuss why performance is important, as well as how to measure and improve performance.", "slides" : "https://drive.google.com/file/d/1Wrtmi9mM5d-a1wpFIfSCW92NMoLGltBn/view?usp=sharing"}]
+        },
+        {"Lecture 12" :
+          [{"title" : "Workflow", "description" : "This lecture will discuss the importance of smooth front-end workflow and user interface, user experience and performance.", "slides" : "https://drive.google.com/file/d/1P1B3n6JglKj_NPARfxENy5dn40_Kvxde/view?usp=sharing"}]
+        },
+        {"Lecture 13" :
+          [{"title" : "PHP", "description" : "This lecture will feature and introduction to PHP and will discuss the topics of PHP MySQL, authentication/authorization, session handling, web security, web services, back-end workflow.", "slides" : "https://drive.google.com/file/d/1arMz8JM38fLljPA0wSr2L0aB4KWW6-9u/view?usp=sharing"}]
+        },
+        {"Lecture 14" :
+          [{"title" : "More PHP & Advanced PHP", "description" : "This lecture goes more in-depth on PHP, discussing its functions, interfaces, and abstract classes.", "slides" : "https://drive.google.com/file/d/1e0t4hMsMq861Mwdlo-q6vNsJa6QzF8v2/view?usp=sharing"}]
+        },
+        {"Lecture 15" :
+          [{"title" : "Start MySQL, Advanced MySQL, More PHP & More MySQL", "description" : "This lecture discusses the MySQL Relational Database Management System and about how to create databases and tables, columns and fields, data types, and SQL syntax.", "slides" : "https://drive.google.com/file/d/1uaD5a3gfcb7AzSE85vhfVjP69HQ-bep0/view?usp=sharing"}]
+        },
+        {"Lecture 16" :
+          [{"title" : "PDO", "description" : "This lecture details selecting databases, user access, PHP Data Objects (PDOs), preparing statements, SQL injection attacks, and starting and ending sessions.", "slides" : "https://drive.google.com/file/d/1i2YW2ulvfvTvxf_ShtD1ucxxCF6Nt8Bv/view?usp=sharing"}]
+        },
+        {"Lecture 17" :
+          [{"title" : "Authentication", "description" : "This lecture deals with establishing permissions and verifying authenticity of requests, as well as solutions for better site and database security.", "slides" : "https://drive.google.com/file/d/1HtMSuJFzpk9Ay8aZPi74j-33oT77EiBG/view?usp=sharing"}]
+        },
+        {"Lecture 18" :
+          [{"title" : "Quiz 2 Review", "description" : "This slide deck will review the topics to be covered on Quiz 1.", "slides" : "https://docs.google.com/presentation/d/19PsEQnGBuqHU9zAKzJaTi5-e07kKtPDbqVKAQ0ZVNr8/edit#slide=id.p"}]
+        }
+      ]
+    },
+    {
+      "labs" : [
+        {"Lab 1" :
+          [{"title" : "Lab 1 - Environment Setup", "description" : "Describe Here", "info" : "https://docs.google.com/document/d/1Gn_1fgbNyYaI79l88NokcrO4_jeHpZyudCLBjhIcf6U/edit?usp=sharing"}]
+        },
+        {"Lab 2" :
+          [{"title" : "Lab 2 - XML and Advanced HTML", "description" : "Describe Here", "info" : "https://docs.google.com/document/d/1IxpiAGUiog64ZY8fqt5NIaaRuoUAr2gz_h19Cb15lzc/edit?usp=sharing"}]
+        },
+        {"Lab 3" :
+          [{"title" : "Lab 3 - Resume Assignment", "description" : "Describe Here", "info" : "https://drive.google.com/file/d/1pUhm9QBLZeOovsDiUEQrAB5XmIHWoNWI/view?usp=sharing"}]
+        },
+        {"Lab 4" :
+          [{"title" : "Lab 4 - JavaScript and the Document Object Model", "description" : "Describe Here", "info" : "https://docs.google.com/document/d/1rXVffSGK8dcOSEyzf6EJ1YfDvfNCBWrQI4OHDdWV60w/edit?usp=sharing"}]
+        },
+        {"Lab 5" :
+          [{"title" : "Lab 5 - JSON and AJAX", "description" : "Describe Here", "info" : "https://lms.rpi.edu/bbcswebdav/pid-50416-dt-content-rid-248813_1/courses/1909_CSCI_2960_00/Lab%205%20Instructions.html"}]
+        },
+        {"Lab 6" :
+          [{"title" : "Lab 6 - Hexed Assignment", "description" : "Describe Here", "info" : "https://drive.google.com/file/d/1pp5eS6wswuSytn2HtwyXcWu-_sfa4hIE/view"}]
+        },
+        {"Lab 7" :
+          [{"title" : "Lab 7 - Front-end Optimization", "description" : "Describe Here", "info" : "https://lms.rpi.edu/bbcswebdav/pid-53793-dt-content-rid-343076_1/courses/1909_CSCI_2960_00/Lab 7instructions.html"}]
+        },
+        {"Lab 8" :
+          [{"title" : "Lab 8 - PHP, OOP and Input Handling", "description" : "Describe Here", "info" : "https://lms.rpi.edu/bbcswebdav/pid-55436-dt-content-rid-393953_1/courses/1909_CSCI_2960_00/Lab8.html"}]
+        },
+        {"Lab 9" :
+          [{"title" : "Lab 9 - SQL", "description" : "Describe Here", "info" : "https://docs.google.com/document/d/1_F59N6uF6JZZuvwtiK6w00pmdKW9ZOg8cvKuW-6MyG8/edit"}]
+        },
+        {"Lab 10" :
+          [{"title" : "Lab 10 - Final Boss (Web Science Systems Development)", "description" : "Describe Here", "info" : "https://docs.google.com/document/d/1khWW_NYzLO9CjJUx9JViUNZBe9MDgtLNpyNiqYtgkiQ/edit"}]
+        }
+      ]
+    }
+  ]
+}

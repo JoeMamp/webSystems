@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="mampijlab2part4.css"?>
+<Playlist xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <track>
+    <name>Angel Dream (No. 4)</name>
+    <html:a href="https://www.tompetty.com/?frontpage=true" class="artist">Tom Petty and the Hearthbreakers</html:a>
+    <html:a href="https://www.allmusic.com/album/songs-and-music-from-shes-the-one-mw0000648466" class="album">She's the One</html:a>
+    <date>August 6, 1996</date>
+    <genres>Rock</genres>
+    <html:img src="petty.jpg" class="image"/>
+  </track>
+
+  <track>
+    <name>I Say a Little Prayer</name>
+    <html:a href="https://www.arethafranklin.net" class="artist">Aretha Now</html:a>
+    <html:a href="https://www.allmusic.com/album/aretha-now-mw0000098949" class="album">Aretha Now</html:a>
+    <date>June 14, 1968</date>
+    <genres>Gospel, Soul, Pop</genres>
+    <html:img src="aretha.jpg" class="image"/>
+  </track>
+
+  <track>
+    <name>If I Ain't Got You</name>
+    <html:a href="https://aliciakeys.com/" class="artist">Alicia Keys</html:a>
+    <html:a href="https://www.allmusic.com/album/the-diary-of-alicia-keys-mw0000320100" class="album">The Diary of Alicia Keys</html:a>
+    <date>February 17, 2004</date>
+    <genres>R&amp;B</genres>
+    <html:img src="alicia.jpg" class="image"/>
+  </track>
+
+  <track>
+    <name>Roll it on Home</name>
+    <html:a href="https://www.johnmayer.com/" class="artist">John Mayer</html:a>
+    <html:a href="https://www.allmusic.com/album/the-search-for-everything-mw0003025097" class="album">The Search for Everything</html:a>
+    <date>February 24, 2017</date>
+    <genres>Rock</genres>
+    <html:img src="jm.jpg" class="image"/>
+  </track>
+
+  <track>
+    <name>Upside Down</name>
+    <html:a href="https://www.goldfordmusic.com/" class="artist">GoldFord</html:a>
+    <album>Shed a Little Light</album>
+    <date>2013</date>
+    <genres>Pop</genres>
+    <html:img src="ford.jpg" class="image"/>
+  </track>
+
+  <track>
+    <name>Whatta Man</name>
+    <html:a href="https://www.saltnpepa.com/" class="artist">Salt n' Pepa</html:a>
+    <html:a href="https://www.allmusic.com/album/very-necessary-mw0000103052" class="album">Very Necessary</html:a>
+    <date>December 2, 1993</date>
+    <genres>Rap</genres>
+    <html:img src="SP.jpg" class="image"/>
+  </track>
+
+</Playlist>
